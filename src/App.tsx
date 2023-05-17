@@ -1,8 +1,11 @@
 import './styles/main.pcss';
+import { connect } from './wakatime/api';
 
 export const data = [
 
 ];
+
+connect();
 
 function App() {
     return (
